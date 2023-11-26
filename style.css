@@ -1,0 +1,155 @@
+/* General settings for the document body */
+body {
+    background-image: linear-gradient(to right, #ffc239, #ff7129);
+}
+
+html {
+    box-sizing: border-box;
+    /* Set font family for the entire document */
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Define border-box model for all elements */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Style for the main box */
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh; /* Initial height for larger devices */
+    width: 80vw; /* Initial width for larger devices */
+    max-width: 400px; /* Set maximum width to avoid the box becoming too large */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for paragraphs */
+p {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style for input fields */
+input {
+    /* Positioning and styling for input fields */
+    bottom: 20%;
+    left: 50%;
+    position: absolute;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    background: white;
+    outline: none;
+    padding: 15px;
+    border: 5px solid white;
+    font-size: 1.2rem;
+}
+
+/* Placeholder text style for input fields */
+input::placeholder {
+    color: #000000;
+}
+
+/* Style for buttons */
+.btn {
+    /* Button styling */
+    text-align: center;
+    border: none;
+    bottom: 1%;
+    left: 50%;
+    position: absolute;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #ffc239, #ff7129);
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    user-select: none;
+    overflow: hidden;
+
+    /* Active state effect */
+    &:active {
+        box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.8);
+    }
+}
+
+/* Style for the blue background box */
+.background-box {
+    background-color: #66bff3;
+    height: 50vh; /* Adjust height for different devices */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for monkey images */
+.monkey-img {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden-monkey-img {
+    width: 430px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+@media screen and (max-height: 900px) {
+    /* Adjustments for screens with a maximum height of 900px */
+    .monkey-img {
+        width: 400px; /* Reduce width of the main image */
+    }
+
+    .hidden-monkey-img {
+        width: 290px; /* Reduce width of the hidden image */
+    }
+
+    input, .btn {
+        padding: 8px; /* Reduce padding for buttons and inputs */
+    }
+}
+
+@media screen and (max-height: 620px) {
+    /* Adjustments for screens with a maximum height of 620px */
+    .monkey-img {
+        width: 300px; /* Reduce width of the main image */
+    }
+
+    .hidden-monkey-img {
+        width: 215px; /* Reduce width of the hidden image */
+    }
+
+    input, .btn {
+        /* Modify font size, height, and width for smaller screens */
+        font-size: 14px;
+        height: 35px;
+        width: 150px;
+    }
+
+    .background-box {
+        bottom: 15px;
+    }
+}
