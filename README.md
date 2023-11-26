@@ -1,4 +1,4 @@
-# Monkey-Password 🐵
+# 🐵 Monkey-Password 🙈
 
 The "Monkey Password" project is a web page designed to encrypt a password as it's entered. Upon clicking the "Hide Password" button, the password is encrypted, and the monkey emoji becomes hidden. Conversely, when clicking the button again, the password becomes visible, and the monkey emoji appears. This project was created using HTML, CSS, and JavaScript, contributing to an improvement in my JavaScript skills and understanding of responsive web design.
 
@@ -7,8 +7,8 @@ The "Monkey Password" project is a web page designed to encrypt a password as it
 - Toggle between visible and hidden password
 - Utilization of HTML, CSS, and JavaScript for implementation
 
-# View Project
-Check out the project online [here](https://yd-savvydev.github.io/Monkey-Password/).
+# View Project 👀
+Check out the project online 👉 [here](https://yd-savvydev.github.io/Monkey-Password/).
 
 # Technologies Used
 - HTML
@@ -16,7 +16,7 @@ Check out the project online [here](https://yd-savvydev.github.io/Monkey-Passwor
 - JavaScript
 
 # Screenshots
-![Visual on Laptop](visuel-monkey-psw-laptop)
+![Visual on Laptop](visuel-monkey-psw-laptop.png)
 ![Visual on mobile](visuel-monkey-psw-iphone.png)
 
 # How to Use
