@@ -17,7 +17,7 @@ Check out the project online 👉 [here](https://yd-savvydev.github.io/Monkey-Pa
 
 # Screenshots
 ![Visual on Laptop](visuel-monkey-psw-laptop.png)
-![Visual on mobile](visuel-monkey-psw-iphone.png)
+![Visual on mobile](https://github.com/YD-SavvyDev/Monkey-Password/blob/main/Screenshots/visual-monkey-psw-iphone.png?raw=true)
 
 # How to Use
 To run the project locally:
