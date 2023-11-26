@@ -8,7 +8,7 @@ The "Monkey Password" project is a web page designed to encrypt a password as it
 - Utilization of HTML, CSS, and JavaScript for implementation
 
 # View Project
-Check out the project online [here]((https://yd-savvydev.github.io/Monkey-Password/)).
+Check out the project online [here](https://yd-savvydev.github.io/Monkey-Password/).
 
 # Technologies Used
 - HTML
