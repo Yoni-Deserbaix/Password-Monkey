@@ -16,7 +16,7 @@ Check out the project online 👉 [here](https://yd-savvydev.github.io/Monkey-Pa
 - JavaScript
 
 # Screenshots
-![Visual on Laptop](visuel-monkey-psw-laptop.png)
+![Visual on Laptop](https://github.com/YD-SavvyDev/Monkey-Password/blob/main/Screenshots/visual-monkey-psw-laptop.png?raw=true)
 ![Visual on mobile](https://github.com/YD-SavvyDev/Monkey-Password/blob/main/Screenshots/visual-monkey-psw-iphone.png?raw=true)
 
 # How to Use
