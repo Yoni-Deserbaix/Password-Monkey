@@ -20,15 +20,17 @@ psw.addEventListener("input", () => {
 
 // Event listener for clicking the password visibility button
 btn.addEventListener("click", () => {
-  if (monkeyHide.style.display === "block") {
-    // Hide the monkeyHide image
-    monkeyHide.style.display = "none";
-    // Show the monkey image
-    monkey.style.display = "block";
+  if (psw.type === "password") {
+    // Change password field type to text and switch button text to 'Hide Password'
+    psw.type = "text";
+    btn.textContent = "Hide Password";
+    monkey.style.display = "block"; // Show monkey image
+    monkeyHide.style.display = "none"; // Hide monkeyHide image
   } else {
-    // Show the monkeyHide image
-    monkeyHide.style.display = "block";
-    // Hide the monkey image
-    monkey.style.display = "none";
+    // Change password field type back to password and switch button text to 'Show Password'
+    psw.type = "password";
+    btn.textContent = "Show Password";
+    monkey.style.display = "none"; // Hide monkey image
+    monkeyHide.style.display = "block"; // Show monkeyHide image
   }
 });
