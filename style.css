@@ -116,6 +116,20 @@ input::placeholder {
     transform: translate(-50%, -50%);
 }
 
+  
+  footer {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+  }
+  
+
 /* RESPONSIVE MEDIA QUERIES */
 @media screen and (max-height: 900px) {
     /* Adjustments for screens with a maximum height of 900px */
@@ -130,6 +144,10 @@ input::placeholder {
     input, .btn {
         padding: 8px; /* Reduce padding for buttons and inputs */
     }
+
+    footer {
+        font-size: 10px;
+      }
 }
 
 @media screen and (max-height: 620px) {
@@ -152,4 +170,8 @@ input::placeholder {
     .background-box {
         bottom: 15px;
     }
+
+    footer {
+        font-size: 7px;
+      }
 }
