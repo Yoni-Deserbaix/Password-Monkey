@@ -11,9 +11,9 @@ The "Monkey Password" project is a web page designed to encrypt a password as it
 Check out the project online 👉 [here](https://yd-savvydev.github.io/Password-Monkey/).
 
 # Technologies Used 🛠
-- HTML
-- CSS
-- JavaScript
+- HTML <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="15" alt="html5 logo"  />
+- CSS <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="15" alt="css3 logo"  />
+- JavaScript  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="15" alt="javascript logo"  />
 
 # Screenshots
 ![Visual on Laptop](https://github.com/YD-SavvyDev/Monkey-Password/blob/main/Screenshots/visual-monkey-psw-laptop.png?raw=true)
@@ -22,9 +22,12 @@ Check out the project online 👉 [here](https://yd-savvydev.github.io/Password-
 # How to Use 
 To run the project locally:
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> :
+    ```bash
+    git clone https://github.com/YD-SavvyDev/Password-Monkey.git
+    ```
 2. Open the index.html file in a web browser.
-3. Interact with the "Hide Password" button to encrypt and hide the password.
+4. Interact with the "Hide Password" button to encrypt and hide the password.
 
 # Skills Gained 🌟
 Developing this project provided an opportunity to enhance proficiency in:
