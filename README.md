@@ -16,8 +16,8 @@ Check out the project online 👉 [here](https://yoni-deserbaix.github.io/Passwo
 - JavaScript  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="15" alt="javascript logo"  />
 
 # Screenshots
-![Visual on Laptop](https://github.com/YD-SavvyDev/Password-Monkey/blob/main/Screenshots/visual-monkey-psw-laptop.png)
-![Visual on mobile](https://github.com/YD-SavvyDev/Password-Monkey/blob/main/Screenshots/visual-monkey-psw-iphone.png)
+![Visual on Laptop](https://github.com/Yoni-Deserbaix/Password-Monkey/blob/main/Screenshots/visual-monkey-psw-laptop.png)
+![Visual on mobile](https://github.com/Yoni-Deserbaix/Password-Monkey/blob/main/Screenshots/visual-monkey-psw-iphone.png)
 
 # How to Use 
 To run the project locally:
