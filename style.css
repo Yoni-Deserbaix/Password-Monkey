@@ -8,6 +8,7 @@ html {
     /* Set font family for the entire document */
     font-family: 'Kanit', sans-serif;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Define border-box model for all elements */
